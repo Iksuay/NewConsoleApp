@@ -13,3 +13,25 @@
     Console.ReadKey();
 }
 
+string myName = "Тамер";
+byte old = 25;
+bool pit = true;
+float foot = 42;
+
+Console.WriteLine(myName);
+Console.WriteLine(old);
+Console.WriteLine(pit);
+Console.WriteLine(foot);
+
+enum DaysOfWeek : byte
+{
+    Monday = 1,
+    Tuesday = 2
+}
+
+enum Semaphore
+{
+    Red = 100,
+    Yellow = 200,
+    Green = 300
+}
