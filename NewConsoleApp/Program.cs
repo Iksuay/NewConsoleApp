@@ -1,7 +1,7 @@
 ﻿static void Main(string[] args)
 {
-    const string MyName;
-    MyName = "Tamer";
+    const string MyName = "Tamer";
+
     Console.WriteLine(MyName);
 
     Console.WriteLine("Привет, C#");
