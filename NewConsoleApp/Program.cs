@@ -1,7 +1,8 @@
 ﻿static void Main(string[] args)
 {
-    string MyName;
+    const string MyName;
     MyName = "Tamer";
     Console.WriteLine(MyName);
+    Console.ReadKey();
 }
 
